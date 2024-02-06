@@ -1,176 +1,357 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  }
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
 
-  .color-picker-main {
-    width: max-content;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
+.color-picker-main {
+	width: max-content;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+}
 
-  .color-picker {
-    border: 1px solid #ffffff61;
-    border-radius: 10px;
-    padding: 10px;
-    margin-right: 10px;
-    display: flex; 
-    transition: box-shadow 200ms ease-in-out;
-  }
+.color-picker {
+	border: 1px solid #ffffff61;
+	border-radius: 10px;
+	padding: 10px;
+	margin-right: 10px;
+	display: flex;
+	transition: box-shadow 200ms ease-in-out;
+}
 
-  .color-picker:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-  }
+.color-picker:hover {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
 
-  .colorPicker {
-    height: 40px;
-    width: 40px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    visibility: hidden;
-  }
+.colorPicker {
+	height: 40px;
+	width: 40px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	visibility: hidden;
+}
 
-  .color-input {
-    background-color: transparent;
-    padding: 1px;
-    width: 100px;
-    border: none;
-    text-align: center;
-  }
+.color-input {
+	background-color: transparent;
+	padding: 1px;
+	width: 100px;
+	border: none;
+	text-align: center;
+}
 
-  .color-input:focus{
-    outline: none;
-  }
+.color-input:focus {
+	outline: none;
+}
 
-  .blend-container {
-    padding: 10px;
-  }
+.blend-container {
+	padding: 10px;
+}
 
-  .blend-btn {
-    font-size: 16px;
-    cursor: pointer;
-    padding: 20px 40px;
-    border-radius: 20px;
-    border: 1px solid #ffffff28;
-    background-color: rgba(255, 255, 255, 0.02);
-    backdrop-filter: blur(10px);
-    color: white;
-    transition: 200ms ease-in-out;
-    
-  }
+.blend-btn {
+	font-size: 16px;
+	cursor: pointer;
+	padding: 20px 40px;
+	border-radius: 20px;
+	border: 1px solid #ffffff28;
+	background-color: rgba(255, 255, 255, 0.02);
+	backdrop-filter: blur(10px);
+	color: white;
+	transition: 200ms ease-in-out;
 
-  .blend-btn:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-  }
+}
 
-  .text-copy-container {
-    margin-top: 20px;
-    border: 1px solid #ffffff28;
-    border-radius: 10px;
-    padding: 0px 15px 0px 10px;
-    display: flex;
-    align-items: center;
-    box-shadow: inset rgba(0, 0, 0, 0.085) 0px 25px 40px -9px;
-    /*visibility: hidden;*/
-  }
+.blend-btn:hover {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
 
-  .text-copy-input {
-    color: white;
-    width: 36rem;
-    font-size: 15px;
-    background-color: transparent;
-    border: none;
-    height: 50px;
-    padding: 0px 20px 0px 10px;
-    
-  }
+.text-copy-container {
+	margin-top: 20px;
+	border: 1px solid #ffffff28;
+	border-radius: 10px;
+	padding: 0px 15px 0px 10px;
+	display: flex;
+	align-items: center;
+	box-shadow: inset rgba(0, 0, 0, 0.085) 0px 25px 40px -9px;
+	/*visibility: hidden;*/
+}
 
-  .text-copy-input:focus {
-    outline: none;
-  }
+.text-copy-input {
+	color: white;
+	width: 36rem;
+	font-size: 15px;
+	background-color: transparent;
+	border: none;
+	height: 50px;
+	padding: 0px 20px 0px 10px;
 
-  .text-copy-btn, .download-btn {
-    height: 30px;
-    width: 30px;
-    border: transparent;
-    background-color: transparent;
-    border-radius: 7px;
-    margin-left: 5px;
-    cursor: pointer;
-    transition: 100ms ease-in-out;
-  }
+}
 
-  .text-copy-btn:hover, .download-btn:hover {
-    background-color: rgba(0, 0, 0, 0.4);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-  }
+.text-copy-input:focus {
+	outline: none;
+}
 
-  .text-copy-btn:focus , .download-btn:focus {
-    border: 1px solid white;
-  }
+.text-copy-btn,
+.download-btn {
+	height: 30px;
+	width: 30px;
+	border: transparent;
+	background-color: transparent;
+	border-radius: 7px;
+	margin-left: 5px;
+	cursor: pointer;
+	transition: 100ms ease-in-out;
+}
 
-  .copy-icon, .download-icon{
-    margin-top: 4px;
-    height: 20px;
-    background-color: transparent;
-  }
+.text-copy-btn:hover,
+.download-btn:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.text-copy-btn:focus,
+.download-btn:focus {
+	border: 1px solid white;
+}
+
+.copy-icon,
+.download-icon {
+	margin-top: 4px;
+	height: 20px;
+	background-color: transparent;
+}
 
 
+.grad-orientation-container {
+	/* border: 1px solid red; */
+	width: 30rem;
+	height: 5rem;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
 
-  .grad-orientation-container{
-    /* border: 1px solid red; */
-    width: 30rem;
-    height: 5rem;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-  }
+.grad-orient {
+	/* border: 1px solid black; */
+	display: flex;
+	align-items: center;
+}
 
-  .grad-orient{
-    /* border: 1px solid black; */
-    display: flex;
-    align-items: center;
-  }
+.ori-btn {
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	border-radius: 50%;
+	border: transparent;
+	transition: 200ms;
+	/* border: 1px solid white; */
+	background-color: transparent;
+}
 
-  .ori-btn{
-    height: 40px;
-    width: 40px;
-    cursor: pointer;
-    border-radius: 50%;
-    border: transparent;
-    transition: 200ms;
-    /* border: 1px solid white; */
-    background-color: transparent;
-  }
+.ori-btn:hover {
+	/* border: 1px solid white; */
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 9px 3px;
+}
 
-  .ori-btn:hover{
-    /* border: 1px solid white; */
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 9px 3px;
-  }
+.ori-btn:focus {
+	border: 1px solid white;
+}
 
-  .ori-btn:focus{
-    border: 1px solid white;
-  }
+.ori-icon {
+	margin-top: 5px;
+	margin-left: 2px;
+	width: 15px;
+}
 
-  .ori-icon{
-    margin-top: 5px;
-    margin-left: 2px;
-    width: 15px;
-  }
+.ori-icon-o {
+	margin-top: 5px;
+	width: 25px;
+}* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
 
-  .ori-icon-o{
-    margin-top: 5px;
-    width: 25px;
-  }
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.color-picker-main {
+	width: max-content;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.color-picker {
+	border: 1px solid #ffffff61;
+	border-radius: 10px;
+	padding: 10px;
+	margin-right: 10px;
+	display: flex;
+	transition: box-shadow 200ms ease-in-out;
+}
+
+.color-picker:hover {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.colorPicker {
+	height: 40px;
+	width: 40px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	visibility: hidden;
+}
+
+.color-input {
+	background-color: transparent;
+	padding: 1px;
+	width: 100px;
+	border: none;
+	text-align: center;
+}
+
+.color-input:focus {
+	outline: none;
+}
+
+.blend-container {
+	padding: 10px;
+}
+
+.blend-btn {
+	font-size: 16px;
+	cursor: pointer;
+	padding: 20px 40px;
+	border-radius: 20px;
+	border: 1px solid #ffffff28;
+	background-color: rgba(255, 255, 255, 0.02);
+	backdrop-filter: blur(10px);
+	color: white;
+	transition: 200ms ease-in-out;
+
+}
+
+.blend-btn:hover {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.text-copy-container {
+	margin-top: 20px;
+	border: 1px solid #ffffff28;
+	border-radius: 10px;
+	padding: 0px 15px 0px 10px;
+	display: flex;
+	align-items: center;
+	box-shadow: inset rgba(0, 0, 0, 0.085) 0px 25px 40px -9px;
+	/*visibility: hidden;*/
+}
+
+.text-copy-input {
+	color: white;
+	width: 36rem;
+	font-size: 15px;
+	background-color: transparent;
+	border: none;
+	height: 50px;
+	padding: 0px 20px 0px 10px;
+
+}
+
+.text-copy-input:focus {
+	outline: none;
+}
+
+.text-copy-btn,
+.download-btn {
+	height: 30px;
+	width: 30px;
+	border: transparent;
+	background-color: transparent;
+	border-radius: 7px;
+	margin-left: 5px;
+	cursor: pointer;
+	transition: 100ms ease-in-out;
+}
+
+.text-copy-btn:hover,
+.download-btn:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.text-copy-btn:focus,
+.download-btn:focus {
+	border: 1px solid white;
+}
+
+.copy-icon,
+.download-icon {
+	margin-top: 4px;
+	height: 20px;
+	background-color: transparent;
+}
+
+
+.grad-orientation-container {
+	/* border: 1px solid red; */
+	width: 30rem;
+	height: 5rem;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.grad-orient {
+	/* border: 1px solid black; */
+	display: flex;
+	align-items: center;
+}
+
+.ori-btn {
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	border-radius: 50%;
+	border: transparent;
+	transition: 200ms;
+	/* border: 1px solid white; */
+	background-color: transparent;
+}
+
+.ori-btn:hover {
+	/* border: 1px solid white; */
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 9px 3px;
+}
+
+.ori-btn:focus {
+	border: 1px solid white;
+}
+
+.ori-icon {
+	margin-top: 5px;
+	margin-left: 2px;
+	width: 15px;
+}
+
+.ori-icon-o {
+	margin-top: 5px;
+	width: 25px;
+}
