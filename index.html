@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="utf-8" />
-	<title>GEN</title>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
-	<link rel="stylesheet" href="styles/my-index.css"> </head>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>fusecolor</title>
+	<meta name="name" content="fusecolor | A minimalistic, customizable gradient blend">
+	<meta name="description" content="Instantly craft unique gradients using our user-friendly web tool. Elevate your designs with personalized color blends effortlessly and enhance your creative projects with vibrant visual appeal.">
+	<meta name="keywords" content="gradient, color, blend, tool, web, design, generator, palette, hue, custom, visual, creation, spectrum, tint, shade, scheme, editor, styling, artistic, canvas, saturation, tone, background, interface, application, software, artwork, mix, variation, picker, style, format, combination, theme, chroma, pattern, layout, interface, digital">
+	<meta name="author" content="vishnu">
+	<meta property="og:title" content="fusecolor | A minimalistic, customizable gradient blend">
+	<meta property="og:url" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="">
+	<meta property="og:description" content="Instantly craft unique gradients using our user-friendly web tool. Elevate your designs with personalized color blends effortlessly and enhance your creative projects with vibrant visual appeal.">
+	<link rel="stylesheet" href="styles/my-index.css" media="all">
+	<link rel="preload" href="resources/Product_Sans_Regular.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="preload" href="scripts/fuse-color.js" as="script">
+</head>
 <body>
-	<div class="container">
+	<div class="container" id="container">
+        <div class="fusecolor-logo">
+            <p>fusecolor</p>
+        </div>
 		<div class="grad-orientation-container">
 			<div class="grad-orient">
 				<button type="button" class="ori-btn" id="top-ori" onclick="topOri()">
@@ -77,22 +90,21 @@
 				<input type="color" class="colorPicker" id="colorPicker3" /> </div>
 		</div>
 		<div class="blend-container">
-			<button class="blend-btn" id="blendBtn" onclick="generateGradient()">Fuse</button>
+			<button class="blend-btn" id="blendBtn" onclick="generateGradient()">fuse</button>
 		</div>
 		<div class="text-copy-container" id="textCopyContainer">
-			<input type="text" class="text-copy-input" id="gradientCode" />
-			<button type="button" class="text-copy-btn" id="textToCopy" onclick="copyText()">
-				<svg class="copy-icon" viewBox="0 0 24 24">
-					<path fill="white" d="M14 16.75H6A2.75 2.75 0 0 1 3.25 14V6A2.75 2.75 0 0 1 6 3.25h8A2.75 2.75 0 0 1 16.75 6v8A2.75 2.75 0 0 1 14 16.75m-8-12A1.25 1.25 0 0 0 4.75 6v8A1.25 1.25 0 0 0 6 15.25h8A1.25 1.25 0 0 0 15.25 14V6A1.25 1.25 0 0 0 14 4.75Z" />
-					<path fill="white" d="M18 20.75h-8A2.75 2.75 0 0 1 7.25 18v-2h1.5v2A1.25 1.25 0 0 0 10 19.25h8A1.25 1.25 0 0 0 19.25 18v-8A1.25 1.25 0 0 0 18 8.75h-2v-1.5h2A2.75 2.75 0 0 1 20.75 10v8A2.75 2.75 0 0 1 18 20.75" /> </svg>
-			</button>
-			<button type="button" class="download-btn" id="downloadBtn" onclick="downloadGradient()" title="Download Gradient">
-				<svg class="download-icon" viewBox="0 0 24 24">
-					<path fill="white" d="m12 16l-5-5l1.4-1.45l2.6 2.6V4h2v8.15l2.6-2.6L17 11zm-6 4q-.825 0-1.412-.587T4 18v-3h2v3h12v-3h2v3q0 .825-.587 1.413T18 20z" /> </svg>
-			</button>
+            <textarea class="text-copy-input" id="gradientCode" cols="30" rows="1" disabled></textarea>
+            <div class="textarea-btns" >
+                <button type="button" class="text-copy-btn" id="textToCopy" onclick="copyText()">
+                    <svg class="copy-icon" viewBox="0 0 24 24"><path fill="white" d="M14 16.75H6A2.75 2.75 0 0 1 3.25 14V6A2.75 2.75 0 0 1 6 3.25h8A2.75 2.75 0 0 1 16.75 6v8A2.75 2.75 0 0 1 14 16.75m-8-12A1.25 1.25 0 0 0 4.75 6v8A1.25 1.25 0 0 0 6 15.25h8A1.25 1.25 0 0 0 15.25 14V6A1.25 1.25 0 0 0 14 4.75Z" /><path fill="white" d="M18 20.75h-8A2.75 2.75 0 0 1 7.25 18v-2h1.5v2A1.25 1.25 0 0 0 10 19.25h8A1.25 1.25 0 0 0 19.25 18v-8A1.25 1.25 0 0 0 18 8.75h-2v-1.5h2A2.75 2.75 0 0 1 20.75 10v8A2.75 2.75 0 0 1 18 20.75" /> </svg>
+                </button>
+                <button type="button" class="download-btn" id="downloadBtn" onclick="downloadGradient()" title="Download Gradient">
+                    <svg class="download-icon" viewBox="0 0 24 24"><path fill="white" d="m12 16l-5-5l1.4-1.45l2.6 2.6V4h2v8.15l2.6-2.6L17 11zm-6 4q-.825 0-1.412-.587T4 18v-3h2v3h12v-3h2v3q0 .825-.587 1.413T18 20z" /> </svg>
+                </button>
+            </div>
 		</div>
 	</div>
-	<script src="scripts/fuse-color.js"></script>
+	<footer><p>view fusecolor in <a href="https://github.com/vishnu1002/fuse-color" target="_blank">GitHub</a></p></footer>
+	<script defer src="scripts/fuse-color.js"></script>
 </body>
-
 </html>

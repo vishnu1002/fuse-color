@@ -1,7 +1,6 @@
 @font-face {
   font-family: productSans;
-  src: url(/resources/Product_Sans_Regular.woff2) format("woff2");
-  font-display: fallback;
+  src: url(/resources/fonts/Product_Sans_Regular.woff2) format("woff2");
 }
 
 * {
@@ -12,13 +11,13 @@
   transition: all 0.3s ease;
 }
 
-.fusecolor-logo {
-  padding: 10px;
-  position: fixed;
-  top: 30px;
-  left: 30px;
-  color: white;
-  cursor: pointer;
+.fusecolor-logo{
+    padding: 10px;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    color: white;
+    cursor: pointer;
 }
 
 .container {
