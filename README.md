@@ -30,10 +30,10 @@ FuseColor is a minimalistic, customizable gradient blend web tool that allows us
 - **Copy Gradient Code:** Copy generated gradient CSS code to use in your projects.
 - **Download Gradient:** Click on the download icon to download the generated gradient as an image file (PNG format).
 
-# Deployment
+# 🚀 Deployment
 fusecolor is deployed using [Cloudflare Pages](https://pages.cloudflare.com/). Visit the deployment page [fusecolor]() to access the live version of the application.
 
-# Getting Started
+# 💡 Getting Started
 - Clone the repository.
 ```bash
 https://github.com/vishnu1002/fuse-color.git
