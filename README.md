@@ -5,26 +5,36 @@
 
 
 
+
+<div align="center">
+  <a href="">![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)</a>
+  <a href="">![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=css3&logoColor=white)</a>
+  <a href="">![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)</a>
+</div>
+
+
+
 FuseColor is a minimalistic, customizable gradient blend web tool that allows users to instantly craft unique gradients. Elevate your designs with personalized color blends effortlessly and enhance your creative projects with vibrant visual appeal.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
 # ✨ Features
-- User-friendly Interface: Easy-to-use interface for crafting custom gradients.
-- Gradient Orientation: Choose from various gradient orientations to suit your design needs.
-- Color Blending: Blend up to three different colors seamlessly.
-- Random Gradient Generation: Generate random gradients with the click of a button.
-- Copy Gradient Code: Copy generated gradient CSS code to use in your projects.
-- Download Gradient: Click on the download icon to download the generated gradient as an image file (PNG format).
+- **User-friendly Interface:** Easy-to-use interface for crafting custom gradients.
+- **Gradient Orientation:** Choose from various gradient orientations to suit your design needs.
+- **Color Blending:** Blend up to three different colors seamlessly.
+- **Random Gradient Generation:** Generate random gradients with the click of a button.
+- **Copy Gradient Code:** Copy generated gradient CSS code to use in your projects.
+- **Download Gradient:** Click on the download icon to download the generated gradient as an image file (PNG format).
 
-# How to Contribute
-If you'd like to contribute to FuseColor, please follow these steps:
-Fork the repository.
-Create a new branch (git checkout -b feature/improvement).
-Make your changes.
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature/improvement).
-Create a new Pull Request.
+# Deployment
+fusecolor is deployed using [Cloudflare Pages](https://pages.cloudflare.com/). Visit the deployment page [fusecolor]() to access the live version of the application.
+
+# Getting Started
+- Clone the repository.
+```bash
+https://github.com/vishnu1002/fuse-color.git
+```
+- Open `index.html` in your browser.
 
 # Credits
 FuseColor is developed and maintained by Vishnu
