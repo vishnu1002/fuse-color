@@ -1,6 +1,6 @@
 # ![fusecolor-icon](https://github.com/vishnu1002/fuse-color/assets/145321614/90f866a7-ccbc-4ab9-baa6-ad75145da8e2) fusecolor. 
 
-![fusecolor-banner](https://github.com/vishnu1002/fuse-color/assets/145321614/f64d5909-99bf-451b-9a33-83d7c6bf6232)
+![fusecolorsocial](https://github.com/vishnu1002/fuse-color/assets/145321614/1c1f5150-0519-4c55-97f5-9c46ee382e36)
 
 
 
