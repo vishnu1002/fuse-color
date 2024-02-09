@@ -7,16 +7,20 @@
 
 
 <div align="center">
+  
   <a href="">![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)</a>
   <a href="">![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=css3&logoColor=white)</a>
   <a href="">![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)</a>
+  
 </div>
 
-
+<div align="center">
+  
+  <a href="">[![Static Badge](https://img.shields.io/badge/Licence-MIT-%23CA0404?style=flat-square&logo=mit&logoColor=white)](https://choosealicense.com/licenses/mit/)</a>
+  
+</div>
 
 FuseColor is a minimalistic, customizable gradient blend web tool that allows users to instantly craft unique gradients. Elevate your designs with personalized color blends effortlessly and enhance your creative projects with vibrant visual appeal.
-
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
 # ✨ Features
 - **User-friendly Interface:** Easy-to-use interface for crafting custom gradients.
