@@ -1,6 +1,6 @@
 {
   "name": "fucecolor",
-  "short_name": "fucecolor",
+  "short_name": "fc",
   "start_url": "/index.html",
   "description": "A minimalistic, customizable gradient blend",
   "icons": [
@@ -14,19 +14,34 @@
       "src": "/resources/icons/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "/resources/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/resources/icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/resources/icons/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
     }
   ],
   "screenshots": [
     {
       "src": "/resources/icons/screenshot1.png",
       "type": "image/png",
-      "sizes": "850x1600",
+      "sizes": "750x1374",
       "form_factor": "narrow"
     },
     {
       "src": "/resources/icons/screenshot2.png",
       "type": "image/jpg",
-      "sizes": "850x1600",
+      "sizes": "750x1374",
       "form_factor": "wide"
     }
   ],
