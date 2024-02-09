@@ -31,7 +31,7 @@ FuseColor is a minimalistic, customizable gradient blend web tool that allows us
 - **Download Gradient:** Click on the download icon to download the generated gradient as an image file (PNG format).
 
 # 🚀 Deployment
-fusecolor is deployed using [Cloudflare Pages](https://pages.cloudflare.com/). Visit the deployment page [fusecolor]() to access the live version of the application.
+fusecolor is deployed using [Cloudflare Pages](https://pages.cloudflare.com/). Visit the deployment page [fusecolor.pages.dev](https://fusecolor.pages.dev/) to access the live version of the application.
 
 # 💡 Getting Started
 - Clone the repository.
