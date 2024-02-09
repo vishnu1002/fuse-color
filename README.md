@@ -32,4 +32,5 @@ FuseColor is developed and maintained by Vishnu
 # License
 This project is licensed under the MIT License.
 
-![fusecolor-banner](https://github.com/vishnu1002/fuse-color/assets/145321614/5ddfdae8-68e8-4b70-adcd-40352dc88aad)
+![fusecolorsocial](https://github.com/vishnu1002/fuse-color/assets/145321614/86859f28-fa3e-47c6-aac7-213ffbd627a7)
+
