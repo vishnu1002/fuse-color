@@ -30,7 +30,7 @@ Create a new Pull Request.
 FuseColor is developed and maintained by Vishnu
 
 # License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
 ![fusecolorsocial](https://github.com/vishnu1002/fuse-color/assets/145321614/86859f28-fa3e-47c6-aac7-213ffbd627a7)
 
