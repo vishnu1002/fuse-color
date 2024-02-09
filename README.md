@@ -1,9 +1,8 @@
-# ![fusecolor-icon](https://github.com/vishnu1002/fuse-color/assets/145321614/90f866a7-ccbc-4ab9-baa6-ad75145da8e2) fusecolor. 
 
-<p align="center">fusecolor.</p>
+<h1 align="center">fusecolor.</h1>
 
 <p align="center">
-  <img src="https://github.com/vishnu1002/fuse-color/assets/145321614/90f866a7-ccbc-4ab9-baa6-ad75145da8e2" alt="FuseColor Logo">
+  <img src="https://github.com/vishnu1002/fuse-color/assets/145321614/49b3d8a3-0bcb-4637-be34-420a51964b27" alt="FuseColor Logo">
 </p>
 
 ![fusecolorsocial](https://github.com/vishnu1002/fuse-color/assets/145321614/1c1f5150-0519-4c55-97f5-9c46ee382e36)
