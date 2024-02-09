@@ -1,9 +1,9 @@
 <p align="center"><img src="https://github.com/vishnu1002/fuse-color/assets/145321614/49b3d8a3-0bcb-4637-be34-420a51964b27" alt="FuseColor Logo"></p>
 <h1 align="center">fusecolor.</h1>
 
-![fusecolorsocial](https://github.com/vishnu1002/fuse-color/assets/145321614/1c1f5150-0519-4c55-97f5-9c46ee382e36)
+![fusecolor-banner](https://github.com/vishnu1002/fuse-color/assets/145321614/5ddfdae8-68e8-4b70-adcd-40352dc88aad)
 
-Instantly craft unique gradients using this user-friendly web tool. Elevate your designs with personalized color blends effortlessly and enhance your creative projects with vibrant visual appeal.
+FuseColor is a minimalistic, customizable gradient blend web tool that allows users to instantly craft unique gradients. Elevate your designs with personalized color blends effortlessly and enhance your creative projects with vibrant visual appeal.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
