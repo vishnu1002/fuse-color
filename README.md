@@ -20,7 +20,7 @@
   
 </div>
 
-FuseColor is a minimalistic, customizable gradient blend web tool that allows users to instantly craft unique gradients. Elevate your designs with personalized color blends effortlessly and enhance your creative projects with vibrant visual appeal.
+fusecolor is a minimalistic, customizable gradient blend web tool that allows users to instantly craft unique gradients. Elevate your designs with personalized color blends effortlessly and enhance your creative projects with vibrant visual appeal.
 
 # ✨ Features
 - **User-friendly Interface:** Easy-to-use interface for crafting custom gradients.
@@ -41,7 +41,7 @@ https://github.com/vishnu1002/fuse-color.git
 - Open `index.html` in your browser.
 
 # Credits
-FuseColor is developed and maintained by Vishnu
+fusecolor is developed and maintained by Vishnu
 
 # License
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
